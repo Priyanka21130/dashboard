@@ -677,7 +677,7 @@ def display_proposal_dashboard(proposal_df):
         # Changed from "Dropped/Rejected" to "Follow-up"
         st.markdown(f"""
             <div class="metric-card">
-                <div class="metric-title">Follow-up</div>
+                <div class="metric-title">Drop</div>
                 <div class="metric-value">{followup_count}</div>
             </div>
         """, unsafe_allow_html=True)
@@ -1471,3 +1471,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
