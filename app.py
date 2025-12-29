@@ -14,7 +14,7 @@ import requests
 SPREADSHEET_ID = "1dWv4kVugXNFQ2NaodZkawaXRglqRJOWR"
 SHEET_GID = "840573777"
 PROPOSAL_GID = "1356001164"
-SHEET_NAME = "Pri Payment"
+SHEET_NAME = "WO*"
 PROPOSAL_SHEET_NAME = "Proposals"
 SERVICE_FILE = "service_account.json"
 
@@ -1471,4 +1471,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
